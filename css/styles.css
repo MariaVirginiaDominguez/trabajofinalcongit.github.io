@@ -1,0 +1,97 @@
+
+.texto {
+    position: absolute;
+    top: 50%; /* Coloca el elemento en el centro vertical de la sección */
+    left: 50%; /* Coloca el elemento en el centro horizontal de la sección */
+    transform: translate(-20%, 320%); /* Centra el elemento correctamente */
+    /*background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 10px;
+    color: white;
+    text-align: right; /* Centra el texto horizontalmente en el elemento */
+}
+
+.btn-custom {
+    border-color: white; /* Establece el color del borde en blanco */
+    
+    color: white; /* Cambia el color del texto a blanco para que sea visible en la imagen */
+    margin-right: 10px;
+}
+
+.tituloOradores{
+    text-align: center;
+}
+.tituloOradores2{
+    text-align:center;
+}
+.lugarYfecha{
+    width: 100%;
+    height:60vh;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.honolulu{
+    width: 50%;
+    background-image: url("../assets/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+
+}
+
+.parrafo{
+    width:50%;
+    background-color: rgb(30, 28, 28);
+    color:white;
+    
+}
+
+.parrafo h4{
+    margin-top: 2vh;
+    margin-left: 1.7vh;
+
+}
+
+.parrafo p{
+    margin-top:2vh;
+    margin-left: 1.3vh;
+    margin-bottom: 3.5vh;
+    line-height: 1.5rem;
+}
+
+.conviertete{
+    text-align: center;
+}
+.orador{
+    text-align: center;
+}
+.anotate{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+footer{
+    margin-top: 10px;
+}
+footer ul{
+    padding: 0;
+    list-style:none;
+    text-decoration-line: none;    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-top: 10px;
+}
+footer ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
